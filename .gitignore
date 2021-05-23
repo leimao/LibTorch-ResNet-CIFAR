@@ -1,0 +1,8 @@
+build
+*.pt
+*.pth
+
+cifar-10-python.tar.gz
+cifar-10-batches-py
+cifar-10-binary.tar.gz
+cifar-10-batches-bin
