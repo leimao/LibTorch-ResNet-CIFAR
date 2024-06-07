@@ -194,7 +194,7 @@ struct ResNet : torch::nn::Module
                 "three elements."};
         }
 
-        m_groups = m_groups;
+        m_groups = groups;
         m_base_width = width_per_group;
 
         m_conv1 = register_module(
